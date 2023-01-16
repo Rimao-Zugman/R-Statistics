@@ -1,0 +1,15 @@
+2+2
+dat <- read.csv("femaleMiceWeights tla.txt")
+install.packages("rafalib")
+install.packages("swirl")
+library(swirl)
+head(femaleMiceWeights)
+View(femaleMiceWeights)
+colnames(femaleMiceWeights)
+sample(femaleMiceWeights[seq(13,24),2]$Bodyweight,1)
+set.seed(1)
+sample(femaleMiceWeights[seq(13,24),2]$Bodyweight,1)
+set.seed(1)
+sample(femaleMiceWeights[seq(13,24),2]$Bodyweight,1)
+?sample
+install.packages("dplyr")
